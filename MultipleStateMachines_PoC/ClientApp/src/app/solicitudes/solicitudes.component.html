@@ -1,0 +1,22 @@
+<h1 id="tableLabel">Solicitudes</h1>
+
+<p *ngIf="!solicitudes"><em>Cargando...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="solicitudes">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Estado</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let solicitud of solicitudes">
+      <td>{{ solicitud.id }}</td>
+      <td>{{ solicitud.estado }}</td>
+      <td>
+        <button class="btn-primary" [routerLink]="['/solicitudes', solicitud.id]">Ir</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<h1 id="tableLabel">Solicitudes</h1>
+
+<p *ngIf="!solicitud"><em>Cargando...</em></p>
+
+<p>Solicitud {{solicitud.id}} en estado {{solicitud.estado}}</p>
+
+<button class="btn-primary" [routerLink]="['/solicitudes']">Volver</button>
