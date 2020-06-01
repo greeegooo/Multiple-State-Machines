@@ -1,31 +1,32 @@
 <p *ngIf="!solicitud"><em>Cargando...</em></p>
 
-<p *ngIf="solicitud">Solicitud {{solicitud.id}} en estado {{solicitud.estado}}</p>
+<div *ngIf="solicitud">
 
-<button class="btn-primary" [routerLink]="['/solicitudes']">Volver</button>
+  <div class="row">
 
-<div class="row">
+    <div class="col-12">
 
-  <div class="col-12">
+      <datos [solicitud]="solicitud"></datos>
 
-    <datos [solicitud]="solicitud"></datos>
+    </div>
 
   </div>
-  
+
+  <div class="row">
+
+    <div class="col-4">
+
+      <wizard [solicitud]="solicitud"></wizard>
+
+    </div>
+
+    <div class="col-8">
+
+      <estado [solicitud]="solicitud"></estado>
+
+    </div>
+
+  </div>
+
 </div>
 
-<div class="row">
-
-  <div class="col-4">
-
-    <wizard [solicitud]="solicitud"></wizard>
-
-  </div>
-
-  <div class="col-8">
-
-    <estado [solicitud]="solicitud"></estado>
-
-  </div>
-
-</div>
