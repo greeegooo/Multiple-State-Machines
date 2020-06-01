@@ -25,7 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="ClientApp\src\app\enums\estadoSolicitud.ts" />
     <None Remove="ClientApp\src\app\models\solicitud.model.ts" />
     <None Remove="ClientApp\src\app\providers\crud.service.ts" />
   </ItemGroup>
@@ -36,7 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="ClientApp\src\app\enums\estadoSolicitud.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\models\solicitud.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\providers\crud.service.ts" />
   </ItemGroup>

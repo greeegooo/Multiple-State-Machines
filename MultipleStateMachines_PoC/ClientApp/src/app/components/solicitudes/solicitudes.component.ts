@@ -1,7 +1,8 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { CrudService } from '../providers/crud.service';
-import { Solicitud } from '../models/solicitud.model';
+import { CrudService } from '../../providers/crud.service';
+import { Solicitud } from '../../models/solicitud.model';
+
 
 @Component({
   selector: 'app-solicitudes',

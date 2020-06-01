@@ -1,4 +1,4 @@
-import { EstadoSolicitud } from "../enums/estadoSolicitud";
+import { EstadoSolicitud } from "../enums/EstadoSolicitud";
 
 export class Solicitud {
   id: number;

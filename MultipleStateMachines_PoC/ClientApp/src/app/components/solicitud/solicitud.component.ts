@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { CrudService } from '../../providers/crud.service';
 import { Solicitud } from '../../models/solicitud.model';
 
+
 @Component({
   selector: 'app-solicitud',
   templateUrl: './solicitud.component.html'
