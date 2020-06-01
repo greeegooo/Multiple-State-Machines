@@ -1,7 +1,0 @@
-C:\Users\GM\source\repos\MultipleStateMachines_PoC\MSM_PoC.Domain\bin\Debug\netstandard2.0\MSM_PoC.Domain.deps.json
-C:\Users\GM\source\repos\MultipleStateMachines_PoC\MSM_PoC.Domain\bin\Debug\netstandard2.0\MSM_PoC.Domain.dll
-C:\Users\GM\source\repos\MultipleStateMachines_PoC\MSM_PoC.Domain\bin\Debug\netstandard2.0\MSM_PoC.Domain.pdb
-C:\Users\GM\source\repos\MultipleStateMachines_PoC\MSM_PoC.Domain\obj\Debug\netstandard2.0\MSM_PoC.Domain.AssemblyInfoInputs.cache
-C:\Users\GM\source\repos\MultipleStateMachines_PoC\MSM_PoC.Domain\obj\Debug\netstandard2.0\MSM_PoC.Domain.AssemblyInfo.cs
-C:\Users\GM\source\repos\MultipleStateMachines_PoC\MSM_PoC.Domain\obj\Debug\netstandard2.0\MSM_PoC.Domain.dll
-C:\Users\GM\source\repos\MultipleStateMachines_PoC\MSM_PoC.Domain\obj\Debug\netstandard2.0\MSM_PoC.Domain.pdb
