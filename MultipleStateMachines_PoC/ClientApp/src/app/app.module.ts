@@ -19,6 +19,9 @@ import { ControlDocumentacionCalificacionComponent } from './components/califica
 import { PendienteDocumentacionLiquidacionComponent } from './components/liquidacion/pendiente-documentacion-liquidacion/pendiente-documentacion-liquidacion.component';
 import { ControlDocumentacionLiquidacionComponent } from './components/liquidacion/control-documentacion-liquidacion/control-documentacion-liquidacion.component';
 import { FinalizadaComponent } from './components/liquidacion/finalizada/finalizada.component';
+import { DatosSolicitudComponent } from './components/datos-solicitud/datos-solicitud.component';
+import { EstadoSolicitudComponent } from './components/estado-solicitud/estado-solicitud.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,9 @@ import { FinalizadaComponent } from './components/liquidacion/finalizada/finaliz
     ControlDocumentacionCalificacionComponent,
     PendienteDocumentacionLiquidacionComponent,
     ControlDocumentacionLiquidacionComponent,
-    FinalizadaComponent
+    FinalizadaComponent,
+    DatosSolicitudComponent,
+    EstadoSolicitudComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -45,7 +50,8 @@ import { FinalizadaComponent } from './components/liquidacion/finalizada/finaliz
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'solicitudes', component: SolicitudesComponent },
       { path: 'solicitudes/:id', component: SolicitudComponent }
-    ])
+    ]),
+    BrowserAnimationsModule
   ],
   providers: [CrudService],
   bootstrap: [AppComponent]

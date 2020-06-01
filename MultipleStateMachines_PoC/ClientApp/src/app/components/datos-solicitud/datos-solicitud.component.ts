@@ -2,11 +2,11 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Solicitud } from '../../models/solicitud.model';
 
 @Component({
-  selector: 'wizard',
-  templateUrl: './wizard.component.html',
-  styleUrls: ['./wizard.component.css']
+  selector: 'datos',
+  templateUrl: './datos-solicitud.component.html',
+  styleUrls: ['./datos-solicitud.component.css']
 })
-export class WizardComponent implements OnInit {
+export class DatosSolicitudComponent implements OnInit {
 
   @Input() solicitud: Solicitud;
 
