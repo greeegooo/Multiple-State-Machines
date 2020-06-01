@@ -10,6 +10,15 @@ import { HomeComponent } from './components/home/home.component';
 import { SolicitudesComponent } from './components/solicitudes/solicitudes.component';
 import { SolicitudComponent } from './components/solicitud/solicitud.component';
 import { CrudService } from './providers/crud.service';
+import { WizardComponent } from './components/wizard/wizard.component';
+import { IngresoDeCuitComponent } from './components/evaluacion/ingreso-de-cuit/ingreso-de-cuit.component';
+import { ConfirmarDatosClienteComponent } from './components/evaluacion/confirmar-datos-cliente/confirmar-datos-cliente.component';
+import { ConfirmarDatosNoClienteComponent } from './components/evaluacion/confirmar-datos-no-cliente/confirmar-datos-no-cliente.component';
+import { PendienteDocumentacionCalificacionComponent } from './components/calificacion/pendiente-documentacion-calificacion/pendiente-documentacion-calificacion.component';
+import { ControlDocumentacionCalificacionComponent } from './components/calificacion/control-documentacion-calificacion/control-documentacion-calificacion.component';
+import { PendienteDocumentacionLiquidacionComponent } from './components/liquidacion/pendiente-documentacion-liquidacion/pendiente-documentacion-liquidacion.component';
+import { ControlDocumentacionLiquidacionComponent } from './components/liquidacion/control-documentacion-liquidacion/control-documentacion-liquidacion.component';
+import { FinalizadaComponent } from './components/liquidacion/finalizada/finalizada.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +26,16 @@ import { CrudService } from './providers/crud.service';
     NavMenuComponent,
     HomeComponent,
     SolicitudesComponent,
-    SolicitudComponent
+    SolicitudComponent,
+    WizardComponent,
+    IngresoDeCuitComponent,
+    ConfirmarDatosClienteComponent,
+    ConfirmarDatosNoClienteComponent,
+    PendienteDocumentacionCalificacionComponent,
+    ControlDocumentacionCalificacionComponent,
+    PendienteDocumentacionLiquidacionComponent,
+    ControlDocumentacionLiquidacionComponent,
+    FinalizadaComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
