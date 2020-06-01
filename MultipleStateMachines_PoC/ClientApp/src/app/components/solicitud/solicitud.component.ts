@@ -6,7 +6,8 @@ import { Solicitud } from '../../models/solicitud.model';
 
 @Component({
   selector: 'app-solicitud',
-  templateUrl: './solicitud.component.html'
+  templateUrl: './solicitud.component.html',
+  styleUrls: ['./solicitud.component.css']
 })
 export class SolicitudComponent implements OnInit {
 
