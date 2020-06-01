@@ -15,6 +15,11 @@ namespace MSM_PoC.Domain
     {
         IngresoCUIT,
         ConfirmarDatosCliente,
-        ConfirmarDatosNoCliente
+        ConfirmarDatosNoCliente,
+        PendienteDocumentacionCalificacion,
+        ControlDocumentacionCalificacion,
+        PendienteDocumentacionLiquidacion,
+        ControlDocumentacionLiquidacion,
+        Finalizada
     }
 }
